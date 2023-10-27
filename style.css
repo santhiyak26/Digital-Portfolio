@@ -1,0 +1,248 @@
+@import url('https:font.gooleapis.com/css?family=poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: aqua;
+    color: black;
+    position: relative;
+}
+
+header{
+    width:100%;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo{
+    color:#fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.logo::first-letter{
+    color:#297cf0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    color: maroon;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover,active{
+    color: #297cf0;
+}
+
+section{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 6%;
+}
+
+.right img{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    max-width: 500px;
+    transition: 0.5s;
+}
+
+.right img:hover{
+    transition: scale(0.98);
+}
+
+.circle{
+    background-color: #297cf0;
+    width: 500px;
+    height: 500px;
+    border-radius: 500;
+    position: absolute;
+    right: 60px;
+    z-index: -1;
+}
+
+.left{
+    width: 450px;
+}
+
+.left h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.left h2::before{
+    content: absolute;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #297cf0;
+    width: 50%;
+    height: 2px;
+}
+
+.left h3{
+    color: #297cf0;
+    font-size: 30px;
+    margin-bottom:10px;
+}
+
+.left p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.btn-here{
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-right: 20px;
+    border: 2px solid #297cf0;
+    color: black;
+    background-color: aqua;
+}
+
+.btn-here:hover{
+    border: 2px solid chartreuse;
+    color:#fff;
+    background-color: aqua;
+}
+
+.btn-talk{
+    border: 2px solid #2d2d2d;
+    color: #297cf0;
+    background-color: aqua;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn-talk:hover{
+    border:2px solid #fff;
+    background-color: aqua;
+    color: #020316;
+}
+
+div.social{
+    position:absolute;
+    bottom: 100px;
+    left: 6%;
+}
+
+.social i{
+    font-size: 22px;
+    color: #297cf0;
+    margin-left: 20px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.social i:hover{
+    transition: scale(1.09);
+    color: #fff;
+}
+.section{
+    image-rendering: none;
+    text-align: center;
+}
+.section .div p{
+    font-size: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: mediumvioletred;
+}
+
+/*about section css----*/
+
+.about{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    grid-gap: 2em;
+    background-color: var(--secon-bg-color);
+}
+.about.img-about{
+    text-align: center;
+    position:relative;
+}
+.about.img-about img{
+    max-width: -100px;
+    height: auto;
+}
+.about-content span{
+    color: brown;
+    font-size: xx-large;
+    font-weight: 100px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills-content span{
+    color:darkgreen;
+    font-size: xx-large;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-content h5{
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: .2rem;
+}
+.skills-content p{
+    color: darkmagenta;
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 1.5rem;
+
+}
+
+.contact-content span{
+    color: blue;
+    font-size: xx-large;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-content h6{
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: .2rem;
+}
+.contact-content p{
+    color:red;
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 1.5rem;
+
+}
